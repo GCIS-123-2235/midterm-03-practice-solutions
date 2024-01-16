@@ -1,0 +1,15 @@
+{
+    "github.copilot.enable": {
+        "*": false
+    },
+    "tabnine.disable_file_regex": [
+        "[.]py$",
+        "[.]java$"
+    ],
+    "dependencyAnalytics.apiKey": "3333",
+    "python.testing.pytestArgs": [
+        "."
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}

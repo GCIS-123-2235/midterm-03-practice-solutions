@@ -3,7 +3,6 @@ from question_5 import deck_suits
 
 
 def test_q5_deck_suits_1():
-    ''' Test Description'''
     expected = [[(2, 'Clubs', '2 of Clubs', ' 2C'),
                 (3, 'Clubs', '3 of Clubs', ' 3C'),
                 (4, 'Clubs', '4 of Clubs', ' 4C'),

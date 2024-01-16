@@ -2,7 +2,6 @@ from question_3 import new_list_reference
 
 
 def test_q3_new_list_reference_1():
-    ''' Test Description'''
     a_list = [1, 2, 3]
     b_list = new_list_reference(a_list)
     b_list[2] = 'a'

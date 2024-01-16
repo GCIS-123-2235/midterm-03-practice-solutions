@@ -1,8 +1,8 @@
 def is_prime(n: int) -> bool:
-    '''
+    """
     Provided helper function that returns True if a number is prime (only factors are 1 and itself)
     And returns False if the number is a composite
-    '''
+    """
     if n == 2:
         return True
     if n % 2 == 0 or n < 2:
@@ -15,7 +15,7 @@ def is_prime(n: int) -> bool:
 
 """
 Question 7.a (List Comprehension) EASY
-complete n_primes to use list comphrehension to make a list of prime numbers up to
+complete n_primes to use list comprehension to make a list of prime numbers up to
 n (but not including n)
 
 you must use list comprehension and n_primes must be one line of code (excluding "def" line)
@@ -33,8 +33,8 @@ def n_primes(n: int) -> list:
 '''
 Question 7.b (List Comprehension) HARD
 
-Complete the function filter_words_list given a list of words, and a list of letter you want to exlcude
-so that it returns a new list of words where each word does not contain the letters in exluded.
+Complete the function filter_words_list given a list of words, and a list of letter you want to exclude
+so that it returns a new list of words where each word does not contain the letters in excluded.
 
 Examples:
     filter_words_list(['missippi', 'reader', 'camera', 'tips', 'trip', 'zombie'], ['i', 'p']) -> ['reader', 'camera']
@@ -70,7 +70,7 @@ Question 7.d (List Comprehension) EXTRA HARD
 Improve chunk_string so that it can handle a string that is not evenly divisible by the chunk size.
 It should fill the last row with the a fill_character until it is the same size as the other rows.
 
-chunck_string_fill should remain one line of code
+chunk_string_fill should remain one line of code
 
 Example:
     chunk_string_fill('Hello World', 3, 'a') -> [['H', 'e', 'l'], ['l', 'o', ' '], ['W', 'o', 'r'], ['l', 'd', 'a']]

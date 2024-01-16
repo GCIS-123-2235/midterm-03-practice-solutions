@@ -4,13 +4,13 @@ Question 4 (Sort Keys):
 Description:
     While Sets may not have an order to them, Dictionaries do. Keys value pairs in a dictionary appear in the order that
     the keys were added to the dictionary. That said, given a dictionary that has string/integer key/value pairs,
-    sort it in accending order based on the integer value for each key.
+    sort it in ascending order based on the integer value for each key.
 
 Example:
     sort_dictionary_by_value({'a': 92, 'b': 10, 'c': 11}) -> {'b': 10, 'c': 11, 'a': 92}
     sort_dictionary_by_value({'longer string': 0, 'short': 1, 'other_short': 1}) -> {'longer string': 0, 'short': 1, 'other_short': 1}
 """
-def value_sort_key(pairs: list[str, int]) -> int:
+def value_sort_key(pairs: list) -> int:
     return pairs[1]
 
 
