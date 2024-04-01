@@ -5,7 +5,8 @@ Question 5 (List Comprehension) MEDIUM
 
 Description:
 Given a deck of cards, use list comprehension to return a 2D list whose rows are a list of cards all of the same suit.
-Because a deck of cards has 52 cards and 4 suits, the result 2D list should have 4 rows with 13 cards each (of the same suit). Each row should be sorted from rank 2 to 14 (hint: use the sorted function)
+Because a deck of cards has 52 cards and 4 suits, the result 2D list should have 4 rows with 13 cards each (of the same suit).
+Each row should be sorted from rank 2 to 14 (hint: use the sorted function)
 
 deck = cards.make_deck()
 shuffle(deck)
@@ -18,7 +19,7 @@ deck_suits = deck_suits(deck)
 [2S, 3S, 4S, 5S, 6S, 7S, 8S, 9S, 10S, JS, QS, KS, AS]
 ]
 
-NOTE: Only shows the shorthand in example output. A card is a tuple w/ 4 values rank, suit, friendly name, shorthand
+NOTE: Only shows the shorthand in example output. A card is a tuple w/ 4 values: rank, suit, friendly name, shorthand
 NOTE: a modified cards.py has been provided
 
 """

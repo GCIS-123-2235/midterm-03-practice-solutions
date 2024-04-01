@@ -2,7 +2,7 @@
 Question 4 (Sort Keys):
 
 Description:
-    While Sets may not have an order to them, Dictionaries do. Keys value pairs in a dictionary appear in the order that
+    While Sets may not have an order to them, Dictionaries do. Key-value pairs in a dictionary appear in the order that
     the keys were added to the dictionary. That said, given a dictionary that has string/integer key/value pairs,
     sort it in ascending order based on the integer value for each key.
 

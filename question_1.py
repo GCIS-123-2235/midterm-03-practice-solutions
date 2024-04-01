@@ -3,7 +3,7 @@ import random
 '''
 Question 1 (Tuples)
 
-Given a tuple with 5 values of unknown types, complete the shuffle_tuple fuction so that it returns a copy of a_tuple
+Given a tuple with 5 values of unknown types, complete the shuffle_tuple function so that it returns a copy of a_tuple
 with its elements randomly shuffled
 
 Example:

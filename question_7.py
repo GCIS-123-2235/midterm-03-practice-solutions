@@ -18,7 +18,9 @@ Question 7.a (List Comprehension) EASY
 complete n_primes to use list comprehension to make a list of prime numbers up to
 n (but not including n)
 
-you must use list comprehension and n_primes must be one line of code (excluding "def" line)
+you must use list comprehension and n_primes.
+must be one line of code (excluding "def" line)
+
 is_prime has been provided that returns true if a number is prime and false if a number is not prime
 
 Examples:
@@ -33,7 +35,7 @@ def n_primes(n: int) -> list:
 '''
 Question 7.b (List Comprehension) HARD
 
-Complete the function filter_words_list given a list of words, and a list of letter you want to exclude
+Complete the function filter_words_list given a list of words and a list of letters you want to exclude
 so that it returns a new list of words where each word does not contain the letters in excluded.
 
 Examples:
